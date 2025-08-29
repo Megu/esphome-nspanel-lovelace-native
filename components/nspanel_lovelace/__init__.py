@@ -44,7 +44,7 @@ custom_icons_index = 0
 
 ALARM_ARM_ACTION = nspanel_lovelace_ns.enum("alarm_arm_action", True)
 ALARM_ARM_OPTIONS = ['arm_home','arm_away','arm_night','arm_vacation','arm_custom_bypass']
-ALARM_ARM_DEFAULT_OPTIONS = ALARM_ARM_OPTIONS['arm_away']
+ALARM_ARM_DEFAULT_OPTIONS = ['arm_away']
 
 TEMPERATURE_UNIT = nspanel_lovelace_ns.enum("temperature_unit_t", True)
 TEMPERATURE_UNIT_OPTIONS = ['celcius','fahrenheit']
